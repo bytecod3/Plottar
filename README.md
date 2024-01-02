@@ -14,7 +14,7 @@ It was originally designed for comparing the raw data and filtered from any iner
 4. To clear the entry boxes, click the ```CLR ``` button. 
 ```Note
 NB: The CLR button does not clear the plot axes and figure at the moment 
-4. ```
+```
 
 
 ## Issues and improvements 
