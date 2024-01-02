@@ -12,8 +12,7 @@ import numpy as np
 # print(x+y)
 x = np.arange(0.0, 6.0, 0.01)
 plt.plot(x, [xi**2 for xi in x], label="test1")
-plt.plot(x, [xi*3 for xi in x], label="test2")
-plt.plot(x, [xi*1.5 for xi in x], label="test3")
+plt.plot(x+2, '-.')
 
 # enable legend visibility
 plt.legend(loc='upper left')
@@ -33,6 +32,6 @@ plt.ylabel('value')
 plt.title("Test data")
 
 # save a plot to file
-plt.savefig('plt1.png')
+# plt.savefig('plt1.png')
 
 plt.show()
